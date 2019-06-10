@@ -1,5 +1,5 @@
-#ifndef __FinancialSamples__Volatility__
-#define __FinancialSamples__Volatility__
+#ifndef __Volatility__
+#define __Volatility__
 #include <vector>
 
 class VolatilityCalculator
@@ -20,4 +20,4 @@ private:
   std::vector<double> m_prices;
 };
 
-#endif /* defined(__FinancialSamples__Volatility__) */
+#endif /* defined(__Volatility__) */
